@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from './Components/Home';
 import Form from './Components/Form';
 import Quiz from "./Components/Quiz"
-
+import Profile from './Components/Profile';
 function App() {
   return (
    <>
@@ -18,6 +18,7 @@ function App() {
           <Route path='/signup' element={<Signup />} />
           <Route path='/form' element={<Form />} />
           <Route path='/quiz' element={<Quiz />} />
+          <Route path='/dashboard' element={<Profile />} />
 
         </Routes>
       </BrowserRouter>
